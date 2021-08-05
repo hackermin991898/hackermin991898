@@ -130,16 +130,16 @@ class FaceBoom(object):
              sys.exit(1)
         write("[~] Checking for updates...\n")
         conn = httplib.HTTPSConnection("raw.githubusercontent.com")
-        conn.request("GET", "/Oseid/FaceBoom/master/core/version.txt")
+        conn.request("GET", "/hackermin991898/core/version.txt")
         repoVersion = conn.getresponse().read().strip().decode()
         with open(versionPath) as vf:
             currentVersion = vf.read().strip()
         if repoVersion == currentVersion:write("  [*] The script is up to date!\n")
         else:
                 print("  [+] An update has been found ::: Updating... ")
-                conn.request("GET", "/Oseid/FaceBoom/master/faceboom.py")
+                conn.request("GET", "hackermin.py")
                 newCode = conn.getresponse().read().strip().decode()
-                with open("faceboom.py", "w") as  faceBoomScript:
+                with open("hackermin.py", "w") as  faceBoomScript:
                    faceBoomScript.write(newCode)
                 with open(versionPath, "w") as ver:
                      ver.write(repoVersion)
@@ -273,12 +273,3 @@ def Main():
 if __name__=='__main__':
     Main()
 
-
-##############################################################
-#####################                #########################
-#####################   END OF TOOL  #########################
-#####################                #########################
-##############################################################
-#This Tool by Oseid Aldary
-#Have a nice day :)
-#GoodBye
