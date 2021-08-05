@@ -32,8 +32,8 @@
 
 # For Install:
 
- - git clone https://github.com/Oseid/FaceBoom.git
- - cd FaceBoom/
+ - git https://github.com/hackermin991898/hackermin991898/edit/main/README.md
+ - cd HackerMin
  - pip install requests
  - pip install mechanize
 ***
@@ -57,7 +57,4 @@
   * this script is only for educational purposes
   * i am not responsible for your actions.
 
-# That's All :)
-   * This Script Coded By Oseid Aldary
-   * Thanks For Usage
-   * Have A Nice Day...GoodBye :)
+
