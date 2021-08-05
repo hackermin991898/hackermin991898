@@ -1,0 +1,9 @@
+pkg update
+pkg upgrade
+pkg install python2 
+ pip2 install mechanize
+ pkg install git
+ https:/git clone https://github.com/hackermin991898/hackermin991898/new/main
+pip2 install mechanize
+pip2 install requests
+ python2 SETAN.py
