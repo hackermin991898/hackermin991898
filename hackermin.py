@@ -1,5 +1,5 @@
 ***
-  - SCRIPT: **FaceBoom**
+  - SCRIPT: **hackermin**
   -    JOB: **Brute Force Attack On Facebook Accounts**
 ***
 
@@ -12,7 +12,7 @@
 
     - **Brute Force On Facebook Account Without proxy**:
      
-     * **Command**: python faceboom.py -t Oseid@gmail.com -w wlist.txt
+     * **Command**: python2 hackermin.py -t Oseid@gmail.com -w wlist.txt
      
          ![withoutProxy](https://user-images.githubusercontent.com/29546157/88088721-8af27d00-cb93-11ea-828c-b80f1996a234.PNG)
    
@@ -31,8 +31,14 @@
 ***
 
 # For Install:
-
- - git https://github.com/hackermin991898/hackermin991898/edit/main/README.md
+ - apt update 
+ - apt upgrade
+ - apt install python
+ - apt install python2
+ - pip install requests
+ - pip2 install mechanize
+ - pkg install git
+ - git https://github.com/hackermin991898/hackermin991898/HackerMin.git
  - cd HackerMin
  - ls
  - chmod +x +
@@ -41,7 +47,6 @@
 ***
 
 # Supported Platforms:
-- [x] Windows
 - [x] Linux
 - [x] Android~**Termux**
 - [x] MacOs
