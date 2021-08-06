@@ -34,8 +34,10 @@
 
  - git https://github.com/hackermin991898/hackermin991898/edit/main/README.md
  - cd HackerMin
- - pip install requests
- - pip install mechanize
+ - ls
+ - chmod +x +
+ - python2 hackermin.py
+ -
 ***
 
 # Supported Platforms:
